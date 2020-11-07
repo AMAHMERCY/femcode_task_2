@@ -26,6 +26,7 @@ color:white;
 }
 .box_b p{
     margin-left: 45%; 
+    color: rgba(2, 100, 35, 0.767);
 }
 a{
     text-decoration: none;
@@ -132,8 +133,14 @@ footer{
         padding: 0;
         max-width: 100%;
     }
+    .col_hero h2{
+        font-size: 1.2rem;
+    }
     li{
-        margin-right: 0.3rem;
+        margin-right: 0.2rem;
+        /* margin-left:-1rem; */
+        font-size: 1rem;
+        /* padding-right: 0.4rem; */
     }
     .btn{
         margin-left: 25%;
@@ -141,5 +148,16 @@ footer{
     }
     .copy_faa{
         margin-left: 40%;
+    }
+    .chic_p{
+        /* width: 0; */
+        max-width: 100%;
+        font-size:1rem;
+    }
+    img{
+        margin-left: 2rem;
+    }
+    .box_b p{
+        padding-top: 1.5rem;
     }
 }
