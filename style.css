@@ -118,6 +118,8 @@ footer{
     }
     nav{
         flex-direction: column;
+        justify-content: start;
+        max-width: 100%;
     }
     footer{
         flex-direction: column;
@@ -155,9 +157,12 @@ footer{
         font-size:1rem;
     }
     img{
-        margin-left: 2rem;
+        margin-left: 0.5rem;
     }
     .box_b p{
         padding-top: 1.5rem;
+    }
+    ul{
+        margin-left: 0;
     }
 }
